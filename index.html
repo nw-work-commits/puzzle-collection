@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>パズル全部集合</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="app-header"><a href="#" class="logo">🧩 パズル全部集合</a><button id="mute" class="icon-btn" type="button" aria-label="音の切り替え">🔊</button></header>
+<main>
+  <section id="menu">
+    <div id="filters" class="filters"></div>
+    <div id="cards" class="cards"></div>
+  </section>
+  <section id="view" hidden>
+    <div class="view-head">
+      <a href="#" class="btn">← 一覧</a>
+      <h1 id="game-title"></h1>
+      <button id="tut-btn" class="btn tut-btn" type="button">📖 遊び方</button>
+    </div>
+    <div id="toolbar" class="toolbar"></div>
+    <div id="status" class="status"></div>
+    <div id="stage" class="stage"></div>
+  </section>
+</main>
+<div id="tut" class="overlay tut" hidden>
+  <div class="modal tut-box">
+    <button id="tut-close" class="tut-x" type="button" aria-label="閉じる">×</button>
+    <div id="tut-step" class="tut-step"></div>
+    <h2 id="tut-title"></h2>
+    <div id="tut-figs" class="tut-figs"></div>
+    <p id="tut-text" class="tut-text"></p>
+    <div class="tut-nav">
+      <button id="tut-prev" class="btn" type="button">◀ 前へ</button>
+      <div id="tut-dots" class="tut-dots"></div>
+      <button id="tut-next" class="btn primary" type="button">次へ ▶</button>
+    </div>
+  </div>
+</div>
+<div id="overlay" class="overlay" hidden>
+  <div class="modal"><h2 id="ov-title"></h2><p id="ov-text"></p><div id="ov-actions" class="actions"></div></div>
+</div>
+
+<script src="js/core.js"></script>
+
+<script src="js/games/slide.js"></script>
+<script src="js/games/2048.js"></script>
+<script src="js/games/mines.js"></script>
+<script src="js/games/sudoku.js"></script>
+<script src="js/games/kakuro.js"></script>
+<script src="js/games/picross.js"></script>
+<script src="js/games/numberlink.js"></script>
+<script src="js/games/hashi.js"></script>
+<script src="js/games/tangram.js"></script>
+<script src="js/games/akari.js"></script>
+<script src="js/games/masyu.js"></script>
+<script src="js/games/slither.js"></script>
+<script src="js/games/heyawake.js"></script>
+<script src="js/games/shikaku.js"></script>
+<script src="js/games/suguru.js"></script>
+<script src="js/games/norinori.js"></script>
+<script src="js/games/nurikabe.js"></script>
+<script src="js/games/yajilin.js"></script>
+<script src="js/games/country.js"></script>
+<script src="js/games/slalom.js"></script>
+<script src="js/games/kenken.js"></script>
+<script src="js/games/lightshadow.js"></script>
+<script src="js/games/rushhour.js"></script>
+<script src="js/games/ice.js"></script>
+<script src="js/games/roll.js"></script>
+<script src="js/games/gomoku.js"></script>
+<script src="js/games/chess.js"></script>
+<script src="js/games/shogi.js"></script>
+<script src="js/games/go.js"></script>
+<script src="js/games/mahjong.js"></script>
+<script src="js/games/suika.js"></script>
+<script src="js/games/brain.js"></script>
+<script src="js/games/lightsout.js"></script>
+<script src="js/games/sokoban.js"></script>
+<script src="js/games/pipes.js"></script>
+<script src="js/games/hanoi.js"></script>
+<script src="js/games/pegsol.js"></script>
+<script src="js/games/flood.js"></script>
+<script src="js/games/samegame.js"></script>
+<script src="js/games/blocks.js"></script>
+<script src="js/games/memory.js"></script>
+<script src="js/games/hitblow.js"></script>
+<script src="js/games/maze.js"></script>
+<script src="js/games/match3.js"></script>
+<script src="js/games/tetris.js"></script>
+<script src="js/games/puyo.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
